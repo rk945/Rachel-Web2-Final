@@ -352,6 +352,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: #faf5f1;
+}
+
 /* =============
     Typography
 ============= */
@@ -385,3 +389,16 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Services
+============= */
+.services {
+  background-color: #f0d7d1;
+}
+
+/* =============
+    newsletter
+============= */
+.newsletter {
+  background-color: #d2ecc6;
+}
