@@ -4,6 +4,11 @@
 
 .newsletter {
     background-color: $tea-green;
+    border-radius: 0px 0px 16px 16px;
+
+    .newsletter-content {
+    text-align:center;
+    }
 }
 
 

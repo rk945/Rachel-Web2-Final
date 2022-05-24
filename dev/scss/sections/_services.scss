@@ -2,8 +2,37 @@
     Services
 ============= */
 
-.services {
+.services{
     background-color: $champagne-pink;
+    border-radius: 0px 0px 8px 8px;
+    padding: 16px 19px;
+
+    .flowers{
+        grid-area: s1; 
+    }
+
+    .plants{
+        grid-area: s2; 
+    }
+
+    .coffee{
+        grid-area: s3; 
+    }
+
+    .gifts{
+        grid-area: s4; 
+    }
+    
+    .services-content{
+        display: grid;
+        grid-template-columns: repeat(4);
+        gap: 16px;
+        grid-area: services-content;
+        grid-template-areas: 
+        "s1 s1 s2 s2"
+        "s3 s3 s4 s4";
+        
+    }
 }
 
 

@@ -1,3 +1,53 @@
 /* =============
     Typography
 ============= */
+
+    body{
+        font-family: 'Montserrat', sans-serif; 
+    }
+
+    h1 {
+        font-family: 'BenchNine', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
+        letter-spacing: 0.5em;
+        text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
+    }
+
+    h2 {
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 500;  
+        font-size:  32px;
+        text-align: center;
+    }
+
+    h5 {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.625px;
+        line-height: 17px;
+        letter-spacing: 0.85em;
+        text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
+    }
+
+    .mission {
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;  
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .about {
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
