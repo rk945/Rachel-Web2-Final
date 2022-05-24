@@ -1,0 +1,21 @@
+/* =============
+    cafe
+============= */
+
+.cafe{
+
+
+@include md{
+ display: grid;
+ grid-template-columns: 1fr;
+ padding-left: 119.5px;
+ padding-right: 119.5px;
+ 
+img{
+    width: 595px;
+    height: 331px;
+     
+}
+}
+}
+

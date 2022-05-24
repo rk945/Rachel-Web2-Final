@@ -1,0 +1,22 @@
+/* =============
+    community
+============= */
+
+.community{
+
+
+@include md{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 119.5px;
+    padding-right: 119.5px;
+
+    img{
+        width: 596px;
+        height: 376px;
+       
+    }
+   }
+}
+
+

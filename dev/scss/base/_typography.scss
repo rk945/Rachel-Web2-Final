@@ -6,6 +6,14 @@
         font-family: 'Montserrat', sans-serif; 
     }
 
+    p{  
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     h1 {
         font-family: 'BenchNine', sans-serif;
         font-style: normal;
@@ -22,6 +30,81 @@
         font-weight: 500;  
         font-size:  32px;
         text-align: center;
+    }
+
+    h3{
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 400;  
+        font-size:  24px;
+        line-height: 29px;
+    }
+
+    .service-info{
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    a.cafe-email:link{
+        color: $cobalt;
+        text-decoration: none;
+    }
+
+    a.cafe-email:visited{
+        color: $cobalt;
+        text-decoration: none;
+    }
+
+
+    a.hello-email:link{
+        color: $cobalt;
+        text-decoration: none;
+    }
+
+    a.hello-email:visited{
+        color: $cobalt;
+        text-decoration: none;
+    }
+
+    a.learn-more:link{
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    a.learn-more:visited{
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    h4 {
+        position: relative;
+        left: 8.67%;
+        right: 8.67%;
+        top: 20.78%;
+        bottom: 62.01%;
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .newsletter-describe {
+        color: $ruddy-bronze;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
     }
 
     h5 {

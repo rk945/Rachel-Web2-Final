@@ -2,5 +2,42 @@
     Buttons
 ============= */
 .button-enter{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 71.19%;
+    right: 10.2%;
+    top: 64.61%;
+    bottom: 20.78%;
+    padding: 8px 20px;
+    gap: 10px;  
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 20px;
+    text-align: center;
+    color: $white;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    background-color: $olive;
+    width: 80.37px;
+    height: 29.95px;  
+}
+
+.menu-button{
+    background-color: $seashell;
+    border: none;
+}
+
+.search-button{
+    background-color: $seashell;
+    border: none;
+}
+
+
+.cart-button{
+    background-color: $seashell;
+    border: none;
 }

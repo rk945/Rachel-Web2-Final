@@ -372,6 +372,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  color: #421908;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 h1 {
   font-family: "BenchNine", sans-serif;
   font-style: normal;
@@ -388,6 +396,79 @@ h2 {
   font-weight: 500;
   font-size: 32px;
   text-align: center;
+}
+
+h3 {
+  color: #421908;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.service-info {
+  color: #421908;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a.cafe-email:link {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+a.cafe-email:visited {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+a.hello-email:link {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+a.hello-email:visited {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+a.learn-more:link {
+  color: #421908;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a.learn-more:visited {
+  color: #421908;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+h4 {
+  position: relative;
+  left: 8.67%;
+  right: 8.67%;
+  top: 20.78%;
+  bottom: 62.01%;
+  color: #421908;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.newsletter-describe {
+  color: #421908;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 h5 {
@@ -421,7 +502,43 @@ h5 {
     Buttons
 ============= */
 .button-enter {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  left: 71.19%;
+  right: 10.2%;
+  top: 64.61%;
+  bottom: 20.78%;
+  padding: 8px 20px;
+  gap: 10px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0px 0px 8px 8px;
+  border: none;
+  background-color: #7e8e76;
+  width: 80.37px;
+  height: 29.95px;
+}
+
+.menu-button {
+  background-color: #faf5f1;
+  border: none;
+}
+
+.search-button {
+  background-color: #faf5f1;
+  border: none;
+}
+
+.cart-button {
+  background-color: #faf5f1;
+  border: none;
 }
 
 /* =============
@@ -442,9 +559,71 @@ textarea {
   -webkit-appearance: none;
 }
 
+input[type=text] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  left: 8.67%;
+  right: 30.44%;
+  top: 64.61%;
+  bottom: 20.78%;
+  padding: 8px 8px 8px 16px;
+  gap: 10px;
+  background: #faf5f1;
+  text-decoration: none;
+  width: 263.03px;
+  height: 29.95px;
+  box-sizing: border-box;
+  border: 1.5px solid #90817d;
+  border-radius: 0px 0px 8px 8px;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #faf5f1;
+  text-decoration: none;
+  width: 263.03px;
+  height: 29.95px;
+  box-sizing: border-box;
+  border: 1.5px solid #90817d;
+  border-radius: 0px 0px 8px 8px;
+  border: none;
+}
+
 /* =============
     Navigation
 ============= */
+.topnav {
+  width: 428px;
+  height: 76px;
+  padding: 16px 16px;
+  background-color: #faf5f1;
+}
+.topnav .menu-button {
+  float: inline-start;
+  top: 16px;
+  left: 18px;
+}
+.topnav .store-logo {
+  display: flex;
+  justify-content: center;
+  top: 16px;
+  left: 18px;
+}
+.topnav .search-button {
+  float: inline-end;
+  top: 16px;
+  left: 18px;
+}
+.topnav .cart-button {
+  float: right;
+  top: 16px;
+  left: 18px;
+}
+
 /* =============
     Header
 ============= */
@@ -470,20 +649,45 @@ footer .footer-script {
 ============= */
 .services {
   background-color: #f0d7d1;
+  width: 100%;
   border-radius: 0px 0px 8px 8px;
   padding: 16px 19px;
 }
 .services .flowers {
   grid-area: s1;
 }
+@media (min-width: 768px) {
+  .services .flowers img {
+    width: 291px;
+    height: 291px;
+  }
+}
 .services .plants {
   grid-area: s2;
+}
+@media (min-width: 768px) {
+  .services .plants img {
+    width: 291px;
+    height: 291px;
+  }
 }
 .services .coffee {
   grid-area: s3;
 }
+@media (min-width: 768px) {
+  .services .coffee img {
+    width: 291px;
+    height: 291px;
+  }
+}
 .services .gifts {
   grid-area: s4;
+}
+@media (min-width: 768px) {
+  .services .gifts img {
+    width: 291px;
+    height: 291px;
+  }
 }
 .services .services-content {
   display: grid;
@@ -492,6 +696,23 @@ footer .footer-script {
   grid-area: services-content;
   grid-template-areas: "s1 s1 s2 s2" "s3 s3 s4 s4";
 }
+@media (min-width: 768px) {
+  .services .services-content {
+    gap: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 992px) {
+  .services .services-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px;
+    gap: 16px;
+  }
+}
 
 /* =============
     newsletter
@@ -499,9 +720,13 @@ footer .footer-script {
 .newsletter {
   background-color: #d2ecc6;
   border-radius: 0px 0px 16px 16px;
+  width: 100%;
+  height: 205px;
 }
 .newsletter .newsletter-content {
   text-align: center;
+  top: 42.6px;
+  left: 37.6px;
 }
 
 /* =============
@@ -528,4 +753,36 @@ footer .footer-script {
   bottom: 31.24%;
   position: absolute;
   color: #fff;
+}
+
+/* =============
+    cafe
+============= */
+@media (min-width: 768px) {
+  .cafe {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 119.5px;
+    padding-right: 119.5px;
+  }
+  .cafe img {
+    width: 595px;
+    height: 331px;
+  }
+}
+
+/* =============
+    community
+============= */
+@media (min-width: 768px) {
+  .community {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 119.5px;
+    padding-right: 119.5px;
+  }
+  .community img {
+    width: 596px;
+    height: 376px;
+  }
 }
