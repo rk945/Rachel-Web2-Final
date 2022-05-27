@@ -607,11 +607,21 @@ form {
   top: 16px;
   left: 18px;
 }
+@media (min-width: 992px) {
+  .topnav .menu-button {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .topnav .menu-button {
+    display: none;
+  }
+}
 .topnav .store-logo {
   display: flex;
   justify-content: center;
-  top: 16px;
-  left: 18px;
+  margin: auto;
+  padding: auto;
 }
 .topnav .search-button {
   float: inline-end;
@@ -622,6 +632,32 @@ form {
   float: right;
   top: 16px;
   left: 18px;
+}
+@media (min-width: 576px) {
+  .topnav .nav-links {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .topnav .nav-links {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .topnav .nav-links {
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .topnav .nav-links {
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
 }
 
 /* =============
@@ -651,7 +687,7 @@ footer .footer-script {
   background-color: #f0d7d1;
   width: 100%;
   border-radius: 0px 0px 8px 8px;
-  padding: 16px 19px;
+  padding: 16px 16px;
 }
 .services .flowers {
   grid-area: s1;
@@ -762,8 +798,8 @@ footer .footer-script {
   .cafe {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 119.5px;
-    padding-right: 119.5px;
+    padding-left: 115px;
+    padding-right: 115px;
   }
   .cafe img {
     width: 595px;
@@ -778,11 +814,35 @@ footer .footer-script {
   .community {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 119.5px;
-    padding-right: 119.5px;
+    padding-left: 115px;
+    padding-right: 115px;
   }
   .community img {
     width: 596px;
     height: 376px;
+  }
+}
+
+/* =============
+    carousel
+============= */
+.carousel .carousel-graphic {
+  display: none;
+}
+@media (min-width: 768px) {
+  .carousel .carousel-graphic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.carousel .carousel-bullets {
+  display: none;
+}
+@media (min-width: 768px) {
+  .carousel .carousel-bullets {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

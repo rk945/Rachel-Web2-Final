@@ -1,0 +1,25 @@
+/* =============
+    carousel
+============= */
+.carousel{
+    
+    .carousel-graphic{
+        display: none;
+        @include md{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .carousel-bullets{
+        display: none;
+        @include md{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+
