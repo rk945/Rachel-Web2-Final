@@ -957,6 +957,75 @@ footer .footer-script {
     grid-template-areas: "f1 f1 f2 f2" "p1 p1 p2 p2" "s1 s1 s2 s2" "g1 g1 g2 g2";
   }
 }
+@media (min-width: 992px) {
+  .products-tablet .product-items-tablet {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .products-tablet .product-items-tablet {
+    display: none;
+  }
+}
+
+/* =============
+    products desktop
+============= */
+.products-desktop .product-items-desktop .flowers-column-1 {
+  grid-area: f1;
+}
+.products-desktop .product-items-desktop .flowers-column-2 {
+  grid-area: f2;
+}
+.products-desktop .product-items-desktop .flowers-column-3 {
+  grid-area: f3;
+}
+.products-desktop .product-items-desktop .plants-column-1 {
+  grid-area: p1;
+}
+.products-desktop .product-items-desktop .plants-column-2 {
+  grid-area: p2;
+}
+.products-desktop .product-items-desktop .plants-column-3 {
+  grid-area: p3;
+}
+.products-desktop .product-items-desktop .seeds-column-1 {
+  grid-area: s1;
+}
+.products-desktop .product-items-desktop .seeds-column-2 {
+  grid-area: s2;
+}
+.products-desktop .product-items-desktop .seeds-column-3 {
+  grid-area: s3;
+}
+.products-desktop .product-items-desktop .gifts-column-1 {
+  grid-area: g1;
+}
+.products-desktop .product-items-desktop .gifts-column-2 {
+  grid-area: g2;
+}
+.products-desktop .product-items-desktop .gifts-column-3 {
+  grid-area: g3;
+}
+@media (min-width: 576px) {
+  .products-desktop .product-items-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .products-desktop .product-items-desktop {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .products-desktop .product-items-desktop {
+    display: grid;
+    grid-template-columns: repeat(12);
+    gap: 18px;
+    grid-area: product-items-desktop;
+    grid-template-areas: "f1 f1 f2 f2 f3 f3" "p1 p1 p2 p2 p3 p3" "s1 s1 s2 s2 s3 s3" "g1 g1 g2 g2 g3 g3";
+  }
+}
 
 /* =============
     delivery
