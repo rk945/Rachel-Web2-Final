@@ -24,6 +24,15 @@
         text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
     }
 
+    .shop-heading{
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.6em;
+    }
+
     h2 {
         color: $ruddy-bronze;
         font-style: normal;
@@ -86,7 +95,7 @@
     }
 
     h4 {
-        position: relative;
+        
         left: 8.67%;
         right: 8.67%;
         top: 20.78%;

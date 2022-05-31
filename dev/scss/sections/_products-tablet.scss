@@ -1,0 +1,62 @@
+/* =============
+    products tablet
+============= */
+
+.products-tablet{
+    .product-items-tablet{
+    
+    .flowers-column-1{
+        grid-area: f1;  
+    }
+
+    .flowers-column-2{
+        grid-area: f2;  
+    }
+
+
+    .plants-column-1{
+        grid-area: p1;  
+    }
+
+
+    .plants-column-2{
+        grid-area: p2;  
+    }
+
+
+    .seeds-column-1{
+        grid-area: s1;  
+    }
+
+    .seeds-column-2{
+        grid-area: s2;  
+    }
+
+    .gifts-column-1{
+        grid-area: g1;  
+    }
+
+
+    .gifts-column-2{
+        grid-area: g2;  
+    }
+    
+    
+        
+    @include sm{
+    display: none;
+    }
+
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(8);
+        gap: 18px;
+        grid-area: product-items-tablet;
+        grid-template-areas: 
+        "f1 f1 f2 f2"
+        "p1 p1 p2 p2"
+        "s1 s1 s2 s2"
+        "g1 g1 g2 g2"; 
+    }
+}
+}
