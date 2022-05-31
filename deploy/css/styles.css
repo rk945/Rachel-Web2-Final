@@ -399,6 +399,15 @@ h1 {
   letter-spacing: 0.6em;
 }
 
+.nav-links a {
+  color: #421908;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600px;
+  line-height: 19.5px;
+}
+
 h2 {
   color: #421908;
   font-style: normal;
@@ -610,36 +619,11 @@ form {
   padding: 16px 16px;
   background-color: #faf5f1;
 }
-.topnav .menu-button {
-  float: inline-start;
-  top: 16px;
-  left: 18px;
-}
-@media (min-width: 992px) {
-  .topnav .menu-button {
-    display: none;
+@media (min-width: 576px) {
+  .topnav {
+    display: flex;
+    justify-content: space-between;
   }
-}
-@media (min-width: 1200px) {
-  .topnav .menu-button {
-    display: none;
-  }
-}
-.topnav .store-logo {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  padding: auto;
-}
-.topnav .search-button {
-  float: inline-end;
-  top: 16px;
-  left: 18px;
-}
-.topnav .cart-button {
-  float: right;
-  top: 16px;
-  left: 18px;
 }
 @media (min-width: 576px) {
   .topnav .nav-links {
@@ -653,18 +637,10 @@ form {
 }
 @media (min-width: 992px) {
   .topnav .nav-links {
-    align-items: left;
     display: flex;
-    justify-content: flex-start;
-    padding-top: 0;
-  }
-}
-@media (min-width: 1200px) {
-  .topnav .nav-links {
-    align-items: left;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 0;
+    list-style: none;
+    justify-content: space-between;
+    padding: 16px;
   }
 }
 

@@ -6,41 +6,15 @@
     height: 76px;
     padding: 16px 16px;  
     background-color: $seashell;
+
+    @include  sm{
+        display: flex;
+        justify-content: space-between;
+    }
+
      
 
-     .menu-button{
-         float: inline-start;
-         top: 16px;
-         left: 18px;
-
-         @include lg{
-             display: none;
-         }
-
-         @include xl{
-            display: none;
-        }
-         
-     }
-
-     .store-logo{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        padding: auto;
-     }
-
-     .search-button{
-        float: inline-end;
-        top: 16px;
-        left: 18px; 
-    }
-
-    .cart-button{
-        float: right; 
-        top: 16px;
-        left: 18px; 
-    }
+     
 
 
    .nav-links{
@@ -53,22 +27,13 @@
     }
 
     @include lg{
-	    align-items: left;
-		display: flex;
-		justify-content: flex-start;
-		padding-top: 0;
-		
+	    display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 16px;
     }
 
 
-    @include xl{
-		align-items: left;
-		display: flex;
-		justify-content: flex-start;
-		padding-top: 0;
-	
-    
-}
 
 }
 }

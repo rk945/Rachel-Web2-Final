@@ -33,6 +33,16 @@
         letter-spacing: 0.6em;
     }
 
+    .nav-links a {
+     color: $ruddy-bronze;
+     text-decoration: none;
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+     font-weight: 600px;
+     line-height: 19.5px; 
+
+    }
+
     h2 {
         color: $ruddy-bronze;
         font-style: normal;
