@@ -12,6 +12,17 @@
         justify-content: space-between;
     }
 
+    .menu-button{
+        @include lg{
+            display: none;
+        }
+
+        @include xl{
+            display: none;
+        }
+    }
+
+
      
 
      
