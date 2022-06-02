@@ -21,10 +21,6 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     align-items: center;
-    left: 8.67%;
-    right: 30.44%;
-    top: 64.61%;
-    bottom: 20.78%;
     padding: 8px 8px 8px 16px;
     gap: 10px;
     background: $seashell;
@@ -42,10 +38,14 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    left: 8.67%;
+    right: 10.2%;
+    top: 64.61%;
+    bottom: 20.78%;
     background: $seashell;
     text-decoration: none;
     width: 263.03px;
-    height: 29.95px; 
+    height: 29.95px;
     box-sizing: border-box;
     border: 1.5px solid $metal;
     border-radius: 0px 0px 8px 8px;
