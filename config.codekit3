@@ -1243,14 +1243,6 @@
       "oAP" : "\/deploy\/html\/index-shop.html",
       "oF" : 2
     },
-    "\/deploy\/html\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/index.html",
-      "oF" : 0
-    },
     "\/deploy\/img\/footer-svg\/Facebook-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -2481,7 +2473,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/html\/index.html",
+      "oAP" : "\/deploy\/html\/index-shop.html",
       "oF" : 2
     },
     "\/dev\/index.html" : {
