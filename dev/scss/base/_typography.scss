@@ -14,6 +14,25 @@
         line-height: 24px;
     }
 
+    .delivery-time {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .pick-up-time {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+
     h1 {
         font-family: 'BenchNine', sans-serif;
         font-style: normal;
@@ -43,6 +62,28 @@
 
     }
 
+    a.delivery-link:link {
+        color: $rose-bronze;
+        text-decoration-line: underline;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 24px;
+        line-height: 28px; 
+    }
+
+    a.delivery-link:visited {
+        color: $rose-bronze;
+        text-decoration-line: underline;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 24px;
+        line-height: 28px;     
+    }
+
+
+
     h2 {
         color: $ruddy-bronze;
         font-style: normal;
@@ -50,6 +91,43 @@
         font-size:  32px;
         text-align: center;
     }
+
+    .shop-h2 {
+        color: $ruddy-bronze;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .product-name {
+        color: $ruddy-bronze;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .price  {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .amount {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
 
     h3{
         color: $ruddy-bronze;

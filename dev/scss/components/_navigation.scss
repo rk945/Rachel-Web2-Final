@@ -2,9 +2,9 @@
     Navigation
 ============= */
 .topnav{
-    width: 428px;
     height: 76px;
-    padding: 16px 16px;  
+    top: 16px;
+    bottom: 20px; 
     background-color: $seashell;
 
     @include  sm{

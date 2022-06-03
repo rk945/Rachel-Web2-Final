@@ -10,13 +10,28 @@
     grid-template-columns: 1fr;
     padding-left: 115px;
     padding-right: 115px;
-
-    img{
-        width: 596px;
-        height: 376px;
-       
-    }
    }
+
+   img{
+
+    @include sm{ 
+        width: 395px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
+    @include md{ 
+       width: 596px;
+       height: 376px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;  
+}
+
+}
+
 }
 
 

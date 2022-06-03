@@ -380,6 +380,24 @@ p {
   line-height: 24px;
 }
 
+.delivery-time {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pick-up-time {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
 h1 {
   font-family: "BenchNine", sans-serif;
   font-style: normal;
@@ -408,12 +426,67 @@ h1 {
   line-height: 19.5px;
 }
 
+a.delivery-link:link {
+  color: #a87f6e;
+  text-decoration-line: underline;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+a.delivery-link:visited {
+  color: #a87f6e;
+  text-decoration-line: underline;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
 h2 {
   color: #421908;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   text-align: center;
+}
+
+.shop-h2 {
+  color: #421908;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.product-name {
+  color: #421908;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.amount {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 h3 {
@@ -570,8 +643,8 @@ h5 {
   line-height: 29px;
   width: 190px;
   height: 37px;
-  left: 16px;
-  top: 488px;
+  margin-left: 16px;
+  margin-top: 80px;
 }
 
 .quantity {
@@ -660,9 +733,9 @@ form {
     Navigation
 ============= */
 .topnav {
-  width: 428px;
   height: 76px;
-  padding: 16px 16px;
+  top: 16px;
+  bottom: 20px;
   background-color: #faf5f1;
 }
 @media (min-width: 576px) {
@@ -721,15 +794,30 @@ footer .footer-script {
   line-height: 17px;
 }
 @media (min-width: 576px) {
-  footer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  footer .footer-script {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 footer .social {
   display: flex;
   justify-content: center;
+  gap: 16px;
+}
+@media (min-width: 576px) {
+  footer .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  footer .social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 /* =============
@@ -817,6 +905,26 @@ footer .social {
   align-items: center;
   padding: 0px;
 }
+@media (min-width: 768px) {
+  .newsletter {
+    display: block;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 596px;
+    height: 176px;
+  }
+}
+@media (min-width: 992px) {
+  .newsletter {
+    display: block;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1070px;
+    height: 308px;
+  }
+}
 
 /* =============
     hero
@@ -854,9 +962,23 @@ footer .social {
     padding-left: 115px;
     padding-right: 115px;
   }
+}
+@media (min-width: 576px) {
+  .cafe img {
+    width: 396px;
+    height: 219px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
   .cafe img {
     width: 595px;
     height: 331px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -870,9 +992,23 @@ footer .social {
     padding-left: 115px;
     padding-right: 115px;
   }
+}
+@media (min-width: 576px) {
+  .community img {
+    width: 395px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
   .community img {
     width: 596px;
     height: 376px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -885,6 +1021,7 @@ footer .social {
 @media (min-width: 768px) {
   .carousel .carousel-graphic {
     display: block;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -906,7 +1043,7 @@ footer .social {
 .hero-image {
   background-image: url("../img/shop-photos/shop-hero-mobile.png");
   width: 100%;
-  height: 216px;
+  height: 219px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1064,5 +1201,7 @@ footer .social {
 ============= */
 .delivery {
   background-color: #f0d7d1;
+  height: 150px;
   width: 100%;
+  text-align: center;
 }
