@@ -12,11 +12,25 @@
    background-size: cover;
    position: relative;
    
+   @include md{
+     width: 100%;
+     height: 291px;
+   }
+
+     
+   @include lg{
+    width: 100%;
+    height: 411px;
+  }
+
    .shop-heading {
-   display: block;
    text-align: center;
-   align-items: center;
-   padding: 50px 64px;
+   left: 15%;
+   right: 15%;
+   top: 20%;
+   bottom: 20%;
+   position: absolute;
    color: $white;
    }
+
    }
