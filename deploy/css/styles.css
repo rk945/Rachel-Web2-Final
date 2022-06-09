@@ -407,6 +407,30 @@ h1 {
   letter-spacing: 0.5em;
   text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
 }
+@media (min-width: 768px) {
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62.3615px;
+    line-height: 83px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95.7049px;
+    line-height: 128px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95.7049px;
+    line-height: 128px;
+  }
+}
 
 .shop-heading {
   font-family: "Playfair Display", serif;
@@ -681,6 +705,30 @@ h5 {
   line-height: 17px;
   letter-spacing: 0.85em;
   text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
+}
+@media (min-width: 768px) {
+  h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.6023px;
+    line-height: 33px;
+  }
+}
+@media (min-width: 992px) {
+  h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37.7566px;
+    line-height: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37.7566px;
+    line-height: 50px;
+  }
 }
 
 .mission {
@@ -1157,9 +1205,8 @@ footer .social {
     hero
 ============= */
 .hero-image {
-  background-image: url("../img/home-photos/hero-mobile.png");
+  background-image: url("../img/home-photos/hero-desktop.png");
   width: 100%;
-  height: 195px;
   left: 0%;
   right: 0%;
   top: 0%;
@@ -1169,14 +1216,37 @@ footer .social {
   background-size: cover;
   position: relative;
 }
+@media (min-width: 576px) {
+  .hero-image {
+    height: 195px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-image {
+    height: 380px;
+  }
+}
+@media (min-width: 992px) {
+  .hero-image {
+    height: 583px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-image {
+    height: 657px;
+  }
+}
 .hero-image .hero-text {
   text-align: center;
-  left: 14.72%;
-  right: 14.53%;
-  top: 30.26%;
-  bottom: 31.24%;
+  margin-left: 125px;
+  margin-right: 125px;
   position: absolute;
   color: #fff;
+}
+@media (min-width: 576px) {
+  .hero-image .hero-text {
+    margin-top: 50px;
+  }
 }
 
 /* =============
@@ -1195,6 +1265,15 @@ footer .social {
   .cafe img {
     width: 595px;
     height: 331px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 992px) {
+  .cafe img {
+    width: 820px;
+    height: 519px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1250,6 +1329,15 @@ footer .social {
   .community img {
     width: 596px;
     height: 376px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 992px) {
+  .community img {
+    width: 822px;
+    height: 520px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1895,7 +1983,12 @@ footer .social {
 ============= */
 .delivery {
   background-color: #f0d7d1;
-  height: 150px;
+  height: 140px;
   width: 100%;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .delivery {
+    height: 170px;
+  }
 }

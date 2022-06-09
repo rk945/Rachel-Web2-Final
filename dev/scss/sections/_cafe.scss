@@ -23,6 +23,16 @@ img{
        margin-right: auto;  
 }
 
+@include lg{ 
+    width: 820px;
+    height: 519px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+
 }
 
 

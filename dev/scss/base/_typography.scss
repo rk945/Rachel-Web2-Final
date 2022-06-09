@@ -30,6 +30,7 @@
         font-size: 16px;
         line-height: 20px;
         text-align: center;
+
     }
 
 
@@ -41,6 +42,29 @@
         line-height: 43px;
         letter-spacing: 0.5em;
         text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
+
+        @include md{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 62.3615px;
+            line-height: 83px;
+        }
+
+
+        @include lg{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 95.7049px;
+            line-height: 128px;
+        }
+
+
+        @include xl{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 95.7049px;
+            line-height: 128px;
+        }
     }
 
     .shop-heading{
@@ -316,6 +340,27 @@
         line-height: 17px;
         letter-spacing: 0.85em;
         text-shadow: 0.51762px 0.51762px 2.07048px rgba(66, 25, 8, 0.4), -0.51762px -0.51762px 2.07048px rgba(66, 25, 8, 0.4);
+
+        @include md{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24.6023px;
+            line-height: 33px;
+        }
+
+        @include lg{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 37.7566px;
+            line-height: 50px;
+        }
+
+        @include xl{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 37.7566px;
+            line-height: 50px;
+        }
     }
 
     .mission {
