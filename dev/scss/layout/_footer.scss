@@ -3,16 +3,14 @@
 ============= */
 
 footer {
-Width: 338px;
-Height: 42px;
-Top: 253px;
+padding-top: 65px;
+
 
 
 .footer-script {
 font-style: normal;
 font-weight: 400px;
 font-size: 14px;
-line-height: 17px;
 
 @include sm{
     display: flex;
@@ -25,7 +23,6 @@ line-height: 17px;
 
 .social{
     display: flex;
-    justify-content: center;
     gap: 16px;
 
     @include sm{
@@ -34,11 +31,15 @@ line-height: 17px;
         justify-content: center;
     }
 
-    @include md{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
 }
+
+@include md{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 
 }

@@ -38,10 +38,8 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    left: 8.67%;
-    right: 10.2%;
-    top: 64.61%;
-    bottom: 20.78%;
+    gap: 60px;
+    padding: 16px;
     background: $seashell;
     text-decoration: none;
     width: 263.03px;
@@ -50,5 +48,19 @@ form {
     border: 1.5px solid $metal;
     border-radius: 0px 0px 8px 8px;
     border: none;
+
+    @include md{
+        width: 357px;
+        gap: 150px;
+        padding: 16px;
+        margin-right: 52px;
+    }
+
+    @include  lg{
+        width: 613px;
+        gap: 420px;
+        padding: 16px;
+        margin-right: 100px;
+    }
     
 }

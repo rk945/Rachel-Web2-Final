@@ -10,6 +10,11 @@
             margin-top: 80px;
             margin-left: auto;
             margin-right: auto;
+            height: 328px;
+        }
+
+        @include lg{
+            height: 487px; 
         }
     }
 

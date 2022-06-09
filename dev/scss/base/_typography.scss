@@ -96,10 +96,27 @@
 
     h2 {
         color: $ruddy-bronze;
+        font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;  
         font-size:  32px;
         text-align: center;
+
+        @include lg{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 48px;
+            text-align: center;
+        }
+
+        @include xl{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 48px;
+            text-align: center;
+        }
     }
 
     .shop-h2 {
@@ -145,6 +162,25 @@
         font-weight: 400;  
         font-size:  24px;
         line-height: 29px;
+
+        @include lg{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        }
+
+
+        @include xl{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            }
     }
 
     .service-info{
@@ -153,6 +189,15 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
+
+        @include lg{
+            text-align: center;
+        }
+
+
+        @include xl{
+            text-align: center;
+        }
     }
 
     a.cafe-email:link{
@@ -163,6 +208,22 @@
     a.cafe-email:visited{
         color: $cobalt;
         text-decoration: none;
+    }
+
+    .open{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+
+    .email{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;  
     }
 
 
@@ -192,17 +253,33 @@
         text-decoration: none;
     }
 
-    h4 {
+    h4{
         
         left: 8.67%;
         right: 8.67%;
         top: 20.78%;
         bottom: 62.01%;
         color: $ruddy-bronze;
+        font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 24px;
         line-height: 29px;
+
+        @include md{ 
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+        }
+        
+        @include lg{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 68px;
+        }
+
     }
 
     .newsletter-describe {
@@ -211,6 +288,23 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
+
+        @include md{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        @include lg{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 39px;
+        }
+
 
     }
 

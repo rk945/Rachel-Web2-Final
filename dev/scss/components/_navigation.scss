@@ -2,9 +2,7 @@
     Navigation
 ============= */
 .topnav{
-    height: 76px;
-    top: 16px;
-    bottom: 20px; 
+    padding: 16px 18px; 
     background-color: $seashell;
 
     @include  sm{
@@ -49,6 +47,18 @@
 
 
 
+}
+
+.store-logo{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.right-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 }
 
